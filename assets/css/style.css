@@ -36,15 +36,30 @@ a {
 #container-info {
     margin-top: 7em;
     margin-left: 5em;
-    margin-bottom: 5em;
-    margin-right: 40em;
+    float: left;
+    padding-right: 1em;
+}
+
+#side-img {
+    float: right;
+    padding-left: 4em;
+    position: relative;
+    top: -12em;
+    right: -1em;
+    z-index: -1;
 }
 
 #container-AR {
-    margin-top: 5em;
-    margin-right: 15em;
-    margin-left: 35em;
-    margin-bottom: 5em;
+    margin-top: 3em;
+    margin-right: 17em;
+    float: right;
+    width: 30%;
+}
+
+#side-img2 {
+    float: left;
+    margin-left: 8em;
+    padding-left: 6em;
 }
 
 h1 {
@@ -55,11 +70,10 @@ h2 {
     font-size: 2em;
 }
 
-h2#centered-header {
-    margin-top: 3em;
+#centered-header {
     margin-left: 5em;
     margin-right: 5em;
-    padding: 1em;
+    margin-top: 28em;
     text-align: center;
     border-top: 0.1em solid black;
 }
@@ -70,9 +84,15 @@ p.intro {
 }
 
 div.arvideo {
-    margin-left: 5em;
+
+}
+
+#play {
+    float: left;
+    padding-right: 1em
 }
 
 p.artext {
     margin-bottom: -1em;
+    font-size: 1.2em;
 }
